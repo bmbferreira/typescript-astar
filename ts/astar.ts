@@ -43,6 +43,7 @@ module astar {
 
 		toString():string {
 			var graphString = "\n";
+			var t = 0;
 			var nodes = this.nodes;
 			var rowDebug:string, row:GraphNode[], y:number, l:number;
 			for (var x = 0, len = nodes.length; x < len;) {
